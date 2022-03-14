@@ -1,0 +1,53 @@
+:root{
+    --primary-color:white;
+    --secondary-color: black;
+    --third-color: rgb(128, 128, 27);
+    --fourth-color:aqua;
+}
+.dark-theme{ 
+    --primary-color:black;
+    --secondary-color: white ;
+    --third-color:rgb(240, 240, 47);
+    --fourth-color:rgb(9, 9, 39);
+}
+
+span{
+    color: var(--third-color) ;
+}
+body{ 
+    background:var(--primary-color) ;margin: 0%;
+
+
+}
+h1,p, button{
+    color: var(--secondary-color);
+    font-size: 1.3em;
+} 
+h1{
+    margin: 10px;
+    
+}
+#btn{
+    background-color: var(--third-color);
+   margin: 30px;
+   border: 2px solid var(--secondary-color);
+   border-radius: 10px;
+   cursor: pointer;
+}
+header{
+    background-color: var(--fourth-color);
+    width: 100%;
+    padding: 50px;
+}
+ul{ display: flex;justify-content: center; justify-content:space-around;}
+li{display: inline-block;
+    text-decoration: none;  
+}
+a{
+    text-decoration: none;
+    color:var(--secondary-color);
+    font-size: 1.3em;
+}
+a:hover{
+    color:red
+}

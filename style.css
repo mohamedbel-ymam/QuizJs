@@ -1,0 +1,45 @@
+  body {
+  background: #f2f4f6;
+  }
+  button {
+    background: #fff;
+    border: unset;
+    outline: 0;
+    font-size: 18px;
+    cursor: pointer;
+    color: #65676b;
+    padding: 5px 10px;
+  }
+ #button1,#button2{
+   color: red;
+ }
+ p{font-size: 3em;
+text-align: center;
+padding-top: 100px;}
+ 
+  #icon{width: 30%; 
+  border-radius: 15px;
+cursor: pointer;}
+header{
+    background-color: aqua;
+    width: 100%;
+    padding: 50px;
+}
+ul{ display: flex;justify-content: center; justify-content:space-around;}
+li{display: inline-block;
+    text-decoration: none;  
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 1.3em;
+}
+a:hover{
+    color:red
+}
+.container{
+margin: 15%;
+  display: flex ;
+  justify-content: center;
+}
+  
